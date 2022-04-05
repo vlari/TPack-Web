@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "target": "ES2019",
+      "outDir": "./build",
+      "esModuleInterop": true,
+      "strict": true,
+      "typeRoots": ["src/api/@types"]
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+      "node_modules"
+  ]
+}
